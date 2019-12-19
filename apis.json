@@ -1,0 +1,74 @@
+{
+    "name": "Accelerated Mobile Pages URL",
+    "description": "<p>AMP is a way to build web pages for static content that render fast. AMP in action consists of three different parts: AMP HTML is HTML with some restrictions for reliable performance and some extensions for building rich content beyond basic HTML. The AMP JS library ensures the fast rendering of AMP HTML pages. The Google AMP Cache can be used to serve cached AMP HTML pages.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/google-amp.png",
+    "tags": [
+        "api provider",
+        "api service provider",
+        "have api",
+        "have swagger",
+        "links",
+        "relative data",
+        "service api",
+        "urls"
+    ],
+    "created": "2019-12-18",
+    "modified": "2019-12-18",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/accelerated-mobile-pages-url\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Accelerated Mobile Pages (AMP) URL",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/google-amp.png",
+            "humanURL": "http:\/\/amp.dev",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/accelerated-mobile-pages-amp-url.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/accelerated-mobile-pages-amp-url-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/accelerated-mobile-pages-amp-url-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/amp.dev"
+        },
+        {
+            "type": "BLog",
+            "url": "https:\/\/amphtml.wordpress.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/amphtml.wordpress.com\/feed\/"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developers.google.com\/amp\/cache\/reference\/acceleratedmobilepageurl\/rest\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/ampproject"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/amphtml"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.ampproject.org\/"
+        }
+    ]
+}
