@@ -1,0 +1,44 @@
+{
+    "id": "9499ce296ed5db30fc4775f58b02d810",
+    "name": "Accelerated Mobile Pages (AMP) URL",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "b6d2e5136b10e3f88a60d9ada6512733",
+            "name": "",
+            "url": "acceleratedmobilepageurl.googleapis.com\/\/v1\/ampUrls:batchGet",
+            "description": "Returns AMP URL(s) and equivalent\n[AMP Cache URL(s)](\/amp\/cache\/overview#amp-cache-url-format).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9499ce296ed5db30fc4775f58b02d810",
+            "rawModeData": ""
+        }
+    ]
+}
