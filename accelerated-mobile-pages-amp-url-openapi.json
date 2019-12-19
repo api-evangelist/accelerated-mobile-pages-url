@@ -1,0 +1,93 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Accelerated Mobile Pages (AMP) URL",
+        "description": "This API contains a single method, batchGet. Call this method to retrieve the AMP URL (and equivalent AMP Cache URL) for given public URL(s).\n",
+        "termsOfService": ""
+    },
+    "servers": [
+        "acceleratedmobilepageurl.googleapis.com\/"
+    ],
+    "paths": {
+        "\/v1\/ampUrls:batchGet": {
+            "post": {
+                "summary": "",
+                "description": "Returns AMP URL(s) and equivalent\n[AMP Cache URL(s)](\/amp\/cache\/overview#amp-cache-url-format).",
+                "operationId": "AcceleratedmobilepageurlAmpUrlsBatchGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "AmpUrl": {
+                "type": "object",
+                "properties": {
+                    "ampUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "cdnAmpUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "originalUrl": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "AmpUrlError": {
+                "type": "object",
+                "properties": {
+                    "errorCode": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "errorMessage": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "originalUrl": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "BatchGetAmpUrlsRequest": {
+                "type": "object",
+                "properties": {
+                    "lookupStrategy": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "urls": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "BatchGetAmpUrlsResponse": {
+                "type": "object",
+                "properties": {
+                    "ampUrls": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "urlErrors": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            }
+        }
+    }
+}
