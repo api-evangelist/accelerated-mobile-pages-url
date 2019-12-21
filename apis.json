@@ -12,8 +12,8 @@
         "service api",
         "urls"
     ],
-    "created": "2019-12-18",
-    "modified": "2019-12-18",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/accelerated-mobile-pages-url\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -27,21 +27,25 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/accelerated-mobile-pages-amp-url.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/accelerated-mobile-pages-url\/master\/accelerated-mobile-pages-amp-url-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/accelerated-mobile-pages-amp-url-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/accelerated-mobile-pages-amp-url.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/accelerated-mobile-pages-amp-url-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/accelerated-mobile-pages-url\/master\/accelerated-mobile-pages-amp-url-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Website",
             "url": "http:\/\/amp.dev"
