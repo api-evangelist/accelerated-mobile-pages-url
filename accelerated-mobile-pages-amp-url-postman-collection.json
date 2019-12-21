@@ -1,5 +1,5 @@
 {
-    "id": "9499ce296ed5db30fc4775f58b02d810",
+    "id": "5075acb58a3ceb35d052638ddc6637e8",
     "name": "Accelerated Mobile Pages (AMP) URL",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "b6d2e5136b10e3f88a60d9ada6512733",
+            "id": "053f093f2986e2d1ca0e9ee6b7295ee4",
             "name": "",
             "url": "acceleratedmobilepageurl.googleapis.com\/\/v1\/ampUrls:batchGet",
             "description": "Returns AMP URL(s) and equivalent\n[AMP Cache URL(s)](\/amp\/cache\/overview#amp-cache-url-format).",
@@ -37,7 +37,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9499ce296ed5db30fc4775f58b02d810",
+            "collectionId": "5075acb58a3ceb35d052638ddc6637e8",
             "rawModeData": ""
         }
     ]
